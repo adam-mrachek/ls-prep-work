@@ -1,0 +1,1 @@
+puts "The error message is telling you that on irb line 2, you used a parentheses when you should have used a curly brace or that you have an opening curly brace, but not a closing curly brace."

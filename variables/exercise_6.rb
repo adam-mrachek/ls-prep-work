@@ -1,0 +1,1 @@
+puts "The error message is saying that local variable being referenced is not available to the program either because it is outside of scope or because it has not been defined."
