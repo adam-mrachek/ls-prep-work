@@ -1,0 +1,1 @@
+# The answer is B.  The NoMethodError is saying that 'keys' is undefined/does not exist.
