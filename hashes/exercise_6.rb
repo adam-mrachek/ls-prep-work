@@ -2,8 +2,15 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
           'flow', 'neon']
 
-words.each do |n|
-  if n == n.sort
-    puts n
+anagrams = {}
+
+words.each do |word|
+  key = word.split("").sort.join
+  if anagrams.has_key?(key)
+    anagrams[key] << word
+  else
+    anagrams[key] = [word]
   end
 end
+
+anagrams.each { |k, v| p v}
