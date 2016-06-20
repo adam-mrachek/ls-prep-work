@@ -1,0 +1,1 @@
+# Arrays store items in an ordered index while hashes store data using keys and values.
